@@ -20,4 +20,7 @@ export const createEntity = (
 createEntity({ position: new Vector3(48, 0, 48) }, 'models/default/grass.glb');
 
 // Light temple
-createEntity({ position: new Vector3(48, 0, 48) }, 'models/scene.glb');
+createEntity(
+  { position: new Vector3(48, 0, 48), rotation: Quaternion.Euler(0, 180, 0) },
+  'models/scene.glb'
+);
