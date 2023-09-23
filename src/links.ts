@@ -29,6 +29,6 @@ export const createLinkEntity = (transform: Partial<TransformType>, linkType: Li
 }
 
 export const setupLinks = (parent: Entity): void => {
-  createLinkEntity({ position: { x: 6, y: 1.3, z: 7 }, parent }, LinkType.GITHUB)
-  createLinkEntity({ position: { x: 5, y: 1.3, z: 7 }, parent }, LinkType.TWITTER)
+  createLinkEntity({ position: { x: 4, y: 1.3, z: 16 }, parent }, LinkType.GITHUB)
+  createLinkEntity({ position: { x: 3, y: 1.3, z: 16 }, parent }, LinkType.TWITTER)
 }
