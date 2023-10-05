@@ -41,6 +41,7 @@ Textures used for 3D models:
 Alternatively, you can use the command line. Inside this scene root directory run:
 
 ```
+npm i
 npm run start
 ```
 

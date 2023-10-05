@@ -1,8 +1,9 @@
 import { engine, GltfContainer, Transform } from '@dcl/sdk/ecs'
 import { Vector3 } from '@dcl/sdk/math'
+
 import { SCENE_MIDDLE } from './config'
-import { setUpSkyBox } from './skyBox'
 import { setupLinks } from './links'
+import { setUpSkyBox } from './skyBox'
 
 export function main() {
   const scene = engine.addEntity()
