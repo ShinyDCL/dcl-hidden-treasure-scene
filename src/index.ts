@@ -3,6 +3,7 @@ import { Vector3 } from '@dcl/sdk/math'
 
 import { SCENE_MIDDLE } from './config'
 import { setupLinks } from './links'
+import { setUpMusic } from './music'
 import { setUpSkyBox } from './skyBox'
 
 export function main() {
@@ -16,4 +17,5 @@ export function main() {
 
   setUpSkyBox(scene)
   setupLinks(scene)
+  setUpMusic()
 }
